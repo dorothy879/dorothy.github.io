@@ -131,9 +131,14 @@ nav {
 
 
 .mode {
+    position: fixed;
     display: flex;
     align-items: center;
     margin-right: -2%;
+    z-index: 10;
+    top: 10px; 
+    right: 20px;
+    gap: 15px;
 }
 
 .moon-sun {
