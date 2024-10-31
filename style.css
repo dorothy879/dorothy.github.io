@@ -732,7 +732,7 @@ footer {
     color: var(--color-white);
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 900px) {
     .featured-text {
         padding: 0;
     }
@@ -740,6 +740,8 @@ footer {
     .image img {
         width: 320px;
         height: 320px;
+        font-size: 1.2em; /* Adjust font size */
+        line-height: 1.4;
     }
 }
 
