@@ -556,7 +556,7 @@ i {
     color: var(--text-color);
 }
 
-.project-box::sfter,
+.project-box::after,
 .contact-info::after {
     content: "";
     position: absolute;
