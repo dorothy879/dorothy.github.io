@@ -434,7 +434,7 @@ i {
     margin-top: 20px;
     font-weight: 500;
     transition: all 0.5s ease;
-    margin-left: 50px;
+    
 }
 
 .skill {
@@ -680,7 +680,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 40%;
+    margin-left: 20%;
     border: none;
     background: #8749f2;
     padding: 10px 20px;
