@@ -185,21 +185,25 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="form-control">
-                                    <div class="form-inputs">
-                                        <input type="text" class="input-field" placeholder="Your Name">
-                                        <input type="text" class="input-field" placeholder="Your Email">
-                                    </div>
-                                    <div class="text-area">
-                                        <input type="text" class="input-subject" placeholder="Subject">
-                                        <textarea placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="form-button">
-                                        <button class="btn">Send<i class="uil uil-message"></i></button>
-                                    </div>
-                                </div>
-                            </div>
+    <div class="form-control">
+        <div class="form-inputs">
+            <input type="text" class="input-field" id="name" placeholder="Your Name">
+            <input type="email" class="input-field" id="email" placeholder="Your Email">
+        </div>
+        <div class="text-area">
+            <input type="text" class="input-subject" id="subject" placeholder="Subject">
+            <textarea id="message" placeholder="Message"></textarea>
+        </div>
+        <div class="form-button">
+            <button class="btn" type="button" onclick="validateForm()">Send<i class="uil uil-message"></i></button>
+        </div>
+    </div>
+</div>
+
                         </div>
+                        <div class="overlay" id="overlay"></div>
+<div class="popup" id="popup">Thank you! Message sent.</div>
+
                     </section>
             </main>
             <footer>
