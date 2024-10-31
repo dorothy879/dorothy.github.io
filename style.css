@@ -573,8 +573,7 @@ i {
 .project-box:hover.project-box::after,
 .contact-info:hover.contact-info::after {
     bottom: 0;
-    background-color: #8749f2; /* Change color on hover */
-    color: #fff; /* 
+
 }
 
 .project-box:hover.project-box i,
