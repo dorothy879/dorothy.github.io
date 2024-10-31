@@ -543,6 +543,8 @@ i {
     box-shadow: 1px 8px 10px 2px var(--first-shadow);
     overflow: hidden;
     cursor: pointer;
+    text-decoration: none; /* Removes underline on links */
+    color: inherit;
 }
 
 .project-box > i {
@@ -571,6 +573,8 @@ i {
 .project-box:hover.project-box::after,
 .contact-info:hover.contact-info::after {
     bottom: 0;
+    background-color: #8749f2; /* Change color on hover */
+    color: #fff; /* 
 }
 
 .project-box:hover.project-box i,
