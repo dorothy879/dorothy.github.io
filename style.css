@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins",sana-serif;
+    font-family: "Poppins",sana-8serif;
 }
 
 :root {
@@ -162,7 +162,7 @@ nav {
     opacity: 0;
 }
 
-#body.dark #sun {
+body.dark #sun {
     opacity: 1;
 }
 
