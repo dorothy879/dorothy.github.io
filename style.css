@@ -103,13 +103,7 @@ nav {
 
 .nav-menu-btn {
     display: none;
-    top: 20px; /* Adjust as needed */
-    right: 60px;
-    z-index: 10;
-    position: fixed;
-
-
-
+    
 }
 
 .nav-menu-btn i {
@@ -158,8 +152,6 @@ nav {
     border-radius: 30px;
     cursor: pointer;
     background: var(--mode-color);
-    left: 20px;    
-    z-index: 10;
 }
 
 .moon-sun :is(#moon,#sun){
