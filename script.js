@@ -45,10 +45,7 @@ const body = document.querySelector("body"),
     sr.reveal(".text-btn", { delay: 200});
     sr.reveal(".social_icons", { delay: 200});
     sr.reveal(".featured-image", { delay: 320});
-
-
     sr.reveal(".project-box", { interval: 200});
-
     sr.reveal(".top-header", {});
 
 
